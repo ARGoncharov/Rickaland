@@ -7,23 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63BA994CA2CA814E67DBB6C3 /* Pods_Rickaland.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5F2885D78FC5D9311FB3E7 /* Pods_Rickaland.framework */; };
+		8A1CCE5F29B22F5A002484A6 /* RMLoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1CCE5E29B22F5A002484A6 /* RMLoginModel.swift */; };
+		8A1CCE6129B22F84002484A6 /* RMLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1CCE6029B22F84002484A6 /* RMLoginViewModel.swift */; };
+		8A1CCE6329B2360B002484A6 /* RMTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1CCE6229B2360B002484A6 /* RMTabBarController.swift */; };
+		8A1CCE6529B25C86002484A6 /* RMQuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1CCE6429B25C86002484A6 /* RMQuotesViewController.swift */; };
+		8A1CCE6729B25C90002484A6 /* RMInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1CCE6629B25C90002484A6 /* RMInfoViewController.swift */; };
+		8A1CCE6929B262C3002484A6 /* RMSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1CCE6829B262C3002484A6 /* RMSettingsViewController.swift */; };
+		8A78814A29B3197E00EC9ED2 /* RMRegisterButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A78814929B3197E00EC9ED2 /* RMRegisterButtonViewController.swift */; };
+		8A78814C29B31A9500EC9ED2 /* RMForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A78814B29B31A9500EC9ED2 /* RMForgotPasswordViewController.swift */; };
 		8AA2B8EF29B1EA6800A6CDC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA2B8EE29B1EA6800A6CDC6 /* AppDelegate.swift */; };
 		8AA2B8F129B1EA6800A6CDC6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA2B8F029B1EA6800A6CDC6 /* SceneDelegate.swift */; };
-		8AA2B8F329B1EA6800A6CDC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA2B8F229B1EA6800A6CDC6 /* ViewController.swift */; };
-		8AA2B8F629B1EA6800A6CDC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AA2B8F429B1EA6800A6CDC6 /* Main.storyboard */; };
+		8AA2B8F329B1EA6800A6CDC6 /* RMLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA2B8F229B1EA6800A6CDC6 /* RMLoginViewController.swift */; };
 		8AA2B8F829B1EA6800A6CDC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AA2B8F729B1EA6800A6CDC6 /* Assets.xcassets */; };
 		8AA2B8FB29B1EA6800A6CDC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AA2B8F929B1EA6800A6CDC6 /* LaunchScreen.storyboard */; };
+		8AA2B90529B1EB6E00A6CDC6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA2B90429B1EB6E00A6CDC6 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		521664A9FE66F959634B1F5E /* Pods-Rickaland.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rickaland.release.xcconfig"; path = "Target Support Files/Pods-Rickaland/Pods-Rickaland.release.xcconfig"; sourceTree = "<group>"; };
+		8A1CCE5E29B22F5A002484A6 /* RMLoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMLoginModel.swift; sourceTree = "<group>"; };
+		8A1CCE6029B22F84002484A6 /* RMLoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMLoginViewModel.swift; sourceTree = "<group>"; };
+		8A1CCE6229B2360B002484A6 /* RMTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMTabBarController.swift; sourceTree = "<group>"; };
+		8A1CCE6429B25C86002484A6 /* RMQuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMQuotesViewController.swift; sourceTree = "<group>"; };
+		8A1CCE6629B25C90002484A6 /* RMInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMInfoViewController.swift; sourceTree = "<group>"; };
+		8A1CCE6829B262C3002484A6 /* RMSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSettingsViewController.swift; sourceTree = "<group>"; };
+		8A78814929B3197E00EC9ED2 /* RMRegisterButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMRegisterButtonViewController.swift; sourceTree = "<group>"; };
+		8A78814B29B31A9500EC9ED2 /* RMForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		8AA2B8EB29B1EA6800A6CDC6 /* Rickaland.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rickaland.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AA2B8EE29B1EA6800A6CDC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AA2B8F029B1EA6800A6CDC6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8AA2B8F229B1EA6800A6CDC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8AA2B8F529B1EA6800A6CDC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8AA2B8F229B1EA6800A6CDC6 /* RMLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMLoginViewController.swift; sourceTree = "<group>"; };
 		8AA2B8F729B1EA6800A6CDC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AA2B8FA29B1EA6800A6CDC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AA2B8FC29B1EA6800A6CDC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AA2B90429B1EB6E00A6CDC6 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		920895AD617CA313CF9786B0 /* Pods-Rickaland.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rickaland.debug.xcconfig"; path = "Target Support Files/Pods-Rickaland/Pods-Rickaland.debug.xcconfig"; sourceTree = "<group>"; };
+		CD5F2885D78FC5D9311FB3E7 /* Pods_Rickaland.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rickaland.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,98 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63BA994CA2CA814E67DBB6C3 /* Pods_Rickaland.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49798118824FA93B0FDFD5A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD5F2885D78FC5D9311FB3E7 /* Pods_Rickaland.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A1CCE5929B22F11002484A6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8A1CCE5A29B22F16002484A6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8A1CCE5E29B22F5A002484A6 /* RMLoginModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8A1CCE5B29B22F1B002484A6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8A1CCE6029B22F84002484A6 /* RMLoginViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8A1CCE5C29B22F22002484A6 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				8AA2B90429B1EB6E00A6CDC6 /* Extensions.swift */,
+				8AA2B8F029B1EA6800A6CDC6 /* SceneDelegate.swift */,
+				8AA2B8EE29B1EA6800A6CDC6 /* AppDelegate.swift */,
+				8AA2B8F929B1EA6800A6CDC6 /* LaunchScreen.storyboard */,
+				8AA2B8F729B1EA6800A6CDC6 /* Assets.xcassets */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		8A1CCE5D29B22F3D002484A6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8A78814829B3195E00EC9ED2 /* LoginScreenFlow */,
+				8A1CCE6A29B262D4002484A6 /* Core */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8A1CCE6A29B262D4002484A6 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8A1CCE6229B2360B002484A6 /* RMTabBarController.swift */,
+				8A1CCE6429B25C86002484A6 /* RMQuotesViewController.swift */,
+				8A1CCE6629B25C90002484A6 /* RMInfoViewController.swift */,
+				8A1CCE6829B262C3002484A6 /* RMSettingsViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		8A78814829B3195E00EC9ED2 /* LoginScreenFlow */ = {
+			isa = PBXGroup;
+			children = (
+				8AA2B8F229B1EA6800A6CDC6 /* RMLoginViewController.swift */,
+				8A78814929B3197E00EC9ED2 /* RMRegisterButtonViewController.swift */,
+				8A78814B29B31A9500EC9ED2 /* RMForgotPasswordViewController.swift */,
+			);
+			path = LoginScreenFlow;
+			sourceTree = "<group>";
+		};
 		8AA2B8E229B1EA6800A6CDC6 = {
 			isa = PBXGroup;
 			children = (
+				8A1CCE5D29B22F3D002484A6 /* Controllers */,
+				8A1CCE5C29B22F22002484A6 /* SupportingFiles */,
+				8A1CCE5B29B22F1B002484A6 /* ViewModels */,
+				8A1CCE5A29B22F16002484A6 /* Models */,
+				8A1CCE5929B22F11002484A6 /* Views */,
 				8AA2B8ED29B1EA6800A6CDC6 /* Rickaland */,
 				8AA2B8EC29B1EA6800A6CDC6 /* Products */,
+				B169978DA586E67AA90906B8 /* Pods */,
+				49798118824FA93B0FDFD5A4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +157,18 @@
 		8AA2B8ED29B1EA6800A6CDC6 /* Rickaland */ = {
 			isa = PBXGroup;
 			children = (
-				8AA2B8EE29B1EA6800A6CDC6 /* AppDelegate.swift */,
-				8AA2B8F029B1EA6800A6CDC6 /* SceneDelegate.swift */,
-				8AA2B8F229B1EA6800A6CDC6 /* ViewController.swift */,
-				8AA2B8F429B1EA6800A6CDC6 /* Main.storyboard */,
-				8AA2B8F729B1EA6800A6CDC6 /* Assets.xcassets */,
-				8AA2B8F929B1EA6800A6CDC6 /* LaunchScreen.storyboard */,
 				8AA2B8FC29B1EA6800A6CDC6 /* Info.plist */,
 			);
 			path = Rickaland;
+			sourceTree = "<group>";
+		};
+		B169978DA586E67AA90906B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				920895AD617CA313CF9786B0 /* Pods-Rickaland.debug.xcconfig */,
+				521664A9FE66F959634B1F5E /* Pods-Rickaland.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AA2B8FF29B1EA6800A6CDC6 /* Build configuration list for PBXNativeTarget "Rickaland" */;
 			buildPhases = (
+				F2ACBE1D27C580A08BDC9889 /* [CP] Check Pods Manifest.lock */,
 				8AA2B8E729B1EA6800A6CDC6 /* Sources */,
 				8AA2B8E829B1EA6800A6CDC6 /* Frameworks */,
 				8AA2B8E929B1EA6800A6CDC6 /* Resources */,
+				3AE8E1A5ED344F358AEC74B7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +233,76 @@
 			files = (
 				8AA2B8FB29B1EA6800A6CDC6 /* LaunchScreen.storyboard in Resources */,
 				8AA2B8F829B1EA6800A6CDC6 /* Assets.xcassets in Resources */,
-				8AA2B8F629B1EA6800A6CDC6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AE8E1A5ED344F358AEC74B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rickaland/Pods-Rickaland-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rickaland/Pods-Rickaland-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rickaland/Pods-Rickaland-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2ACBE1D27C580A08BDC9889 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rickaland-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8AA2B8E729B1EA6800A6CDC6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AA2B8F329B1EA6800A6CDC6 /* ViewController.swift in Sources */,
+				8A1CCE5F29B22F5A002484A6 /* RMLoginModel.swift in Sources */,
+				8A78814A29B3197E00EC9ED2 /* RMRegisterButtonViewController.swift in Sources */,
+				8AA2B8F329B1EA6800A6CDC6 /* RMLoginViewController.swift in Sources */,
+				8A1CCE6129B22F84002484A6 /* RMLoginViewModel.swift in Sources */,
 				8AA2B8EF29B1EA6800A6CDC6 /* AppDelegate.swift in Sources */,
+				8A78814C29B31A9500EC9ED2 /* RMForgotPasswordViewController.swift in Sources */,
 				8AA2B8F129B1EA6800A6CDC6 /* SceneDelegate.swift in Sources */,
+				8A1CCE6329B2360B002484A6 /* RMTabBarController.swift in Sources */,
+				8A1CCE6929B262C3002484A6 /* RMSettingsViewController.swift in Sources */,
+				8A1CCE6529B25C86002484A6 /* RMQuotesViewController.swift in Sources */,
+				8A1CCE6729B25C90002484A6 /* RMInfoViewController.swift in Sources */,
+				8AA2B90529B1EB6E00A6CDC6 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8AA2B8F429B1EA6800A6CDC6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8AA2B8F529B1EA6800A6CDC6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8AA2B8F929B1EA6800A6CDC6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +430,7 @@
 		};
 		8AA2B90029B1EA6800A6CDC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 920895AD617CA313CF9786B0 /* Pods-Rickaland.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -291,7 +440,6 @@
 				INFOPLIST_FILE = Rickaland/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -309,6 +457,7 @@
 		};
 		8AA2B90129B1EA6800A6CDC6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 521664A9FE66F959634B1F5E /* Pods-Rickaland.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -318,7 +467,6 @@
 				INFOPLIST_FILE = Rickaland/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
